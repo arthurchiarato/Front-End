@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+    background: #F0F8FF;
+    text-align: center;
+}
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 31%;
+}
+
+th,td{
+    padding: 5px 10px;
+
+}
+
+th{
+    background-color: #59429D;
+    color: #ffffff;
+}
+
+table tr:nth-child(odd){
+    background-color: #ddd;
+
+}
+
+table tr:nth-child(even){
+    background-color: white;
+
+}
+
+.botão{
+background: #3f8b00;
+color: #ffffff;
+}
