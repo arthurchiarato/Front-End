@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+
+    width: 20px;
+    margin: 50px auto;
+}
+
+.teclas{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#inputA{
+    width: 95px;
+}

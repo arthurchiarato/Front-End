@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+
+<body>
+
+    <h1>Calculadora - Feia</h1>
+
+    <div class="container">
+        <div class="teclas">
+            <button onclick="op('7')">7</button>
+            <button onclick="op('8')">8</button>
+            <button onclick="op('9')">9</button>
+            <button onclick="op('+')">+</button>
+
+            <button onclick="op('4')">4</button>
+            <button onclick="op('5')">5</button>
+            <button onclick="op('6')">6</button>
+            <button onclick="op('-')">-</button>
+        
+            <button onclick="op('1')">1</button>
+            <button onclick="op('2')">2</button>
+            <button onclick="op('3')">3</button>
+            <button onclick="op('*')">*</button>
+
+            <button onclick="op('0')">0</button>
+            <button onclick="op('/')">/</button>
+            <button onclick="limpar('C')">C</button>
+            <button onclick="calcular('=')">=</button>
+
+        </div>
+
+        <input type="number" id="inputA">
+
+
+
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
