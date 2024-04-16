@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.casa {
+    width: 50px;
+    height: 50px;
+    background-color: #F0D9B5;
+}
+
+.casaBranca {
+    width: 50px;
+    height: 50px;
+    background-color: #B58863;
+}
+
+.peao {
+    width: 50px;
+    height: 50px;
+    background-image: url('peao.png');
+    background-size: cover;
+}
+
+.peao2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('peao2.png');
+    background-size: cover;
+}
+
+.torre {
+    width: 50px;
+    height: 50px;
+    background-image: url('torre.png');
+    background-size: cover;
+}
+
+.torre2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('torre2.png');
+    background-size: cover;
+}
+
+.cavalo {
+    width: 50px;
+    height: 50px;
+    background-image: url('cavalo.png');
+    background-size: cover;
+}
+
+.cavalo2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('cavalo2.png');
+    background-size: cover;
+}
+
+.bispo {
+    width: 50px;
+    height: 50px;
+    background-image: url('bispo.png');
+    background-size: cover;
+}
+
+.bispo2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('bispo2.png');
+    background-size: cover;
+}
+
+.rei {
+    width: 50px;
+    height: 50px;
+    background-image: url('rei.png');
+    background-size: cover;
+}
+
+.rei2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rei2.png');
+    background-size: cover;
+}
+
+.rainha {
+    width: 50px;
+    height: 50px;
+    background-image: url('rainha.png');
+    background-size: cover;
+}
+
+.rainha2 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rainha2.png');
+    background-size: cover;
+}
+
+.peao3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('peao3.png');
+    background-size: cover;
+}
+
+.peao4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('peao4.png');
+    background-size: cover;
+}
+
+.torre3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('torre3.png');
+    background-size: cover;
+}
+
+.torre4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('torre4.png');
+    background-size: cover;
+}
+
+.cavalo3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('cavalo3.png');
+    background-size: cover;
+}
+
+.cavalo4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('cavalo4.png');
+    background-size: cover;
+}
+
+.bispo3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('bispo3.png');
+    background-size: cover;
+}
+
+.bispo4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('bispo4.png');
+    background-size: cover;
+}
+
+.rei3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rei3.png');
+    background-size: cover;
+}
+
+.rei4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rei4.png');
+    background-size: cover;
+}
+
+.rainha3 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rainha3.png');
+    background-size: cover;
+}
+
+.rainha4 {
+    width: 50px;
+    height: 50px;
+    background-image: url('rainha4.png');
+    background-size: cover;
+}
