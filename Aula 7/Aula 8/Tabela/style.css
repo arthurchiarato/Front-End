@@ -1,0 +1,28 @@
+container{
+    width: 960px;
+}
+
+@media(max-width: 768px) {
+
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+div{
+    display: block;
+}
+
+@media(max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
