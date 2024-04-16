@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+    color: green;
+}
+
+nav{
+    text-align: left;
+}
+
+nav li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+nav ul{
+    float: left;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+figure{
+    float: left;
+}
+figure img{
+    height: 250px;
+}
