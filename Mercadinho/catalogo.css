@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    background-color: #fffffff2;
+    text-align: center;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary,
+.btn-success {
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+    background-color: #388e3c;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+#checkoutModal .form-group {
+    margin-bottom: 20px;
+}
+
+#login-icon {
+    position: fixed;
+    top: 18px;
+    right: 60px;
+    font-size: 24px;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: #4caf50;
+    color: white;
+    border: 3px solid transparent;
+    transition: opacity 0.3s;
+}
+
+#login-icon:hover {
+    background-color: #388e3c;
+    border-color: white;
+}
+
+#login-text {
+    position: absolute;
+    top: 130%;
+    right: -100px;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+    white-space: nowrap;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#cart-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#cart-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50px;
+}
+
+#cart-button i {
+    margin-right: 8px;
+}
